@@ -483,6 +483,34 @@ t.down()
 t.forward(35)
 
 t.reset()
+
+#Initials C & G
+t.pencolor('blue')
+forward(90)
+t.left(180)
+t.forward(90)
+t.left(90)
+t.forward(90)
+t.left(90)
+t.forward(170)
+
+t.penup()
+t.forward(90)
+t.pendown()
+t.forward(90)
+t.left(180)
+t.forward(90)
+t.left(90)
+t.forward(90)
+t.left(90)
+t.forward(90)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(90)
+
+t.reset()
+
 # leave the input() function at the bottom of the code
 input('hit enter to exit')
 
